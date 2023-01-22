@@ -11,7 +11,9 @@
     <header>
       <!-- cabeçalho do conteúdo -->
       <div class="caixa">
-        <h1><img src="./img/produtos/logo.png" alt="Logo da Babearia Alura"/></h1>
+        <h1>
+          <img src="./img/produtos/logo.png" alt="Logo da Babearia Alura" />
+        </h1>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -36,7 +38,13 @@
         />
 
         <label for="telefone">Telefone</label>
-        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx" />
+        <input
+          type="tel"
+          id="telefone"
+          class="input-padrao"
+          required
+          placeholder="(xx) xxxxx-xxxx"
+        />
 
         <label for="mensagem">Mensagem</label>
         <textarea
@@ -90,14 +98,42 @@
         </fieldset>
 
         <label class="checkbox"
-          ><input type="checkbox" checked /> Gostaria de receber nossas novidades por
-          e-mail?</label
+          ><input type="checkbox" checked /> Gostaria de receber nossas
+          novidades por e-mail?</label
         >
-        <input type="submit" name="contato" value="Enviar formulário" class="enviar"/>
+        <input
+          type="submit"
+          name="contato"
+          value="Enviar formulário"
+          class="enviar"
+        />
       </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda</td>
+            <td>8h~20h</td>
+          </tr>
+          <tr>
+            <td>Quarta</td>
+            <td>08h~20h</td>
+          </tr>
+          <tr>
+            <td>Sexta</td>
+            <td>08h~20h</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
     <footer>
-      <img src="./img/produtos/logo-branco.png" alt="Logo da Babearia Alura"/>
+      <img src="./img/produtos/logo-branco.png" alt="Logo da Babearia Alura" />
       <p class="copyright">&copy; Copyright Barbearia Alura - 2023</p>
     </footer>
   </body>
